@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaNxs.Abstractions\PruebaNxs.Interfaces.csproj" />
+    <ProjectReference Include="..\PruebaNxs.DataAccess\PruebaNxs.DataAccess.csproj" />
+    <ProjectReference Include="..\PruebaNxs.Entities\PruebaNxs.Entities.csproj" />
+    <ProjectReference Include="..\PruebaNxs.Services\PruebaNxs.Services.csproj" />
+  </ItemGroup>
+
+</Project>
